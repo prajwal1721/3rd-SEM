@@ -61,7 +61,10 @@ void rev(struct node **head)
     }
     *head=next;
 }
-void p2(s)
+void p2(struct node **head)
+{
+    
+}
 void disp(struct node*head)
 {
     while(head)
