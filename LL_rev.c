@@ -10,6 +10,7 @@ void rev_recursive(struct node **head);
 void rev(struct node **head);
 void disp(struct node*head);
 void create(struct node ** head,int data);
+void rev_rec(struct node *p, struct node *q,struct node**head);
 int main()
 {
 int ch,data;
@@ -30,6 +31,7 @@ l:
     // rev(&head);
     printf("done\n");
     // rev_recursive(&head);
+    rev_rec(head->ptr,head,&head);
     disp(head);
 }
 void create(struct node ** head,int data)
@@ -101,11 +103,24 @@ void SWAP(struct node**head)
     t->ptr=*head;
     *head=t;
 }
-struct node* rec_rev(struct node*head)
+// struct node* rec_rev(struct node*head)
+// {
+//     if(head==NULL)
+//         return NULL;
+//     if(head->ptr=NULL)
+//         return head;
+//     struct node *secNode=hea
+// }
+void rev_rec(struct node *p, struct node *q,struct node**head)
 {
-    if(head==NULL)
-        return NULL;
-    if(head->ptr=NULL)
-        return head;
-    struct node *secNode=hea
+    if(p )
+    {
+        rev_rec(p->ptr,p,head);
+        p->ptr=q;
+    }
+    else
+    {
+        (*head)->ptr=NULL;
+        *head=q;
+    }
 }
