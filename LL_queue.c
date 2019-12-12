@@ -31,10 +31,10 @@ void push(int i, element e)
             front[i]=rear[i]=n;
         }
     else
-            {
-                rear[i]->link=n;
-                rear[i]=n;
-            }
+        {
+            rear[i]->link=n;
+            rear[i]=n;
+        }
 }
 void disp(int i)
 {
@@ -65,7 +65,7 @@ int main()
                     break;
             case 2:printf("Enter stack no\n");
                    scanf("%d",&i);
-                    if (rear[i]!=front[i])                  
+                    if ((front[i]))
                         pop(i);
                     else
                         printf("EMPTY\n");
