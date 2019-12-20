@@ -5,7 +5,7 @@ typedef struct
     int e,c;
 }term;
 
-int add(int sa,int sb,int ea,int eb,int sc,term *aa);
+int add(int sa,int sb,int ea,int eb,int sc,term aa[]);
 int attach(int c,int e);
 void disp(term *b,int sa,int ea);
 int main()
@@ -31,7 +31,7 @@ void disp(term *b,int sa,int ea)
         printf("%dX^%d + ",b[i].c,b[i].e);
     printf("%dX^%d\n",b[i].c,b[i].e);
 }
-int add(int sa,int sb,int ea,int eb,int sc,term *aa)
+int add(int sa,int sb,int ea,int eb,int sc,term aa[])
 {
     int c;
     while(sa<=ea && sb<=eb)

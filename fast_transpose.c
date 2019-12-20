@@ -21,7 +21,7 @@ void trans(t *a,t*b)
     for(int i=1;i<=nd;i++)
         rt[a[i].c]++;
     sp[0]=1;
-    for(int i=0;i<nc;i++)    
+    for(int i=1;i<nc;i++)    
         sp[i]=sp[i-1]+rt[i-1];
     for(int i=1;i<=nd;i++)
     {
