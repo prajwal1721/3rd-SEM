@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - p1g",
+            "request": "launch",
+            "mainClass": "p1g",
+            "projectName": "DAY1_390fa2a0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - p1a",
+            "request": "launch",
+            "mainClass": "p1a",
+            "projectName": "DAY1_390fa2a0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - p2",
+            "request": "launch",
+            "mainClass": "p2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - p2",
+            "request": "launch",
+            "mainClass": "p2",
+            "projectName": "DAY 1_e8e4af82"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - m",
+            "request": "launch",
+            "mainClass": "m",
+            "projectName": "DAY 1_e8e4af82"
+        }
+    ]
+}

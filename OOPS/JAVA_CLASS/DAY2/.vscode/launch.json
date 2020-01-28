@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - G5",
+            "request": "launch",
+            "mainClass": "G5",
+            "projectName": "DAY2_390fa2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - G4",
+            "request": "launch",
+            "mainClass": "G4",
+            "projectName": "DAY2_390fa2a1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GRADESYS",
+            "request": "launch",
+            "mainClass": "GRADESYS",
+            "projectName": "DAY2_390fa2a1"
+        }
+    ]
+}

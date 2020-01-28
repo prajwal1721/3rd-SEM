@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - prog9",
+            "request": "launch",
+            "mainClass": "prog9",
+            "projectName": "DAY9_390fa2a8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - p3",
+            "request": "launch",
+            "mainClass": "p3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - p2",
+            "request": "launch",
+            "mainClass": "p2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Q",
+            "request": "launch",
+            "mainClass": "Q"
+        }
+    ]
+}
